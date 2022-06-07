@@ -41,22 +41,24 @@ if(score <= lowscore){
 }
 else(document.write("very poor"))
 
+var color = "blue"
+switch(color){
+    case "blue":
+        document.write("This is blue")
+        break;
+    case "red":
+        document.write("This is red")
+        break;
+    case "green":
+        document.write("Wednesday")
+    break;
+    default:
+        document.write("Another color")
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let foods = ["banku", "fufu", "beans", "jollof" ,"waakye"]
+ foods [0] = "chelsea"
+ let firstfood = [3]
+ console.log(firstfood )
+console.log(foods)
 
